@@ -6,8 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
-# Credentials
+# Twisper specific
 config/credentials.json
+data/
 
 # Distribution / packaging
 .Python

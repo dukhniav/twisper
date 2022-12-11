@@ -3,11 +3,12 @@ import json
 import logging
 import sys
 from twisper.config  import Config
-from twitter_api import T_API
+from twisper.twitter_api import T_API
 from time import sleep
+from typing import Any
 
 import tweepy
-from loggers import setup_logging_pre
+from twisper.loggers import setup_logging_pre
 
 # check min. python version
 if sys.version_info < (3, 8):  # pragma: no cover
@@ -21,6 +22,9 @@ def main():
     This function will initiate the bot and start the trading loop.
     :return: None
     """
+
+    return_code: Any = 1
+
     try:
         setup_logging_pre()
 

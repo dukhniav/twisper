@@ -4,7 +4,8 @@
         "max_results": 100,
         "follow_limit" : 1900,
         "max_tweet_age" : 30,
-        "min_retweet_count" : 20
+        "min_retweet_count" : 20,
+        "heartbeat_interval" : 60
     },
     "notification_config": {
         "notify" : true,

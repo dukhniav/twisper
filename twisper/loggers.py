@@ -3,7 +3,7 @@ import sys
 from logging import Formatter
 from logging.handlers import BufferingHandler, RotatingFileHandler, SysLogHandler
 
-from config import Config
+from twisper.config import Config
 
 
 class FTBufferingHandler(BufferingHandler):

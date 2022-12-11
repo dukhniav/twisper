@@ -54,6 +54,7 @@ class Config:
         self.FOLLOW_LIMIT = bot['follow_limit']
         self.MAX_AGE = bot['max_tweet_age'] # days
         self.MIN_RT_COUNT = bot['min_retweet_count']
+        self.HEARTBEAT_INTERVAL = bot['heartbeat_interval']
 
         '''
         Notification config
