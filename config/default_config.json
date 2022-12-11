@@ -1,0 +1,37 @@
+{
+    "bot_config" : {
+        "dry_run" : true,
+        "max_results": 100,
+        "follow_limit" : 1900,
+        "max_tweet_age" : 30,
+        "min_retweet_count" : 20
+    },
+    "notification_config": {
+        "notify" : true,
+        "notify_username" : ""
+    },
+    "contact_config" : {
+        "allow_contact" : false,
+        "msg_text" : ["I want to enter to the giveaway!", "Hope to win :D"]
+    },
+    "search_config" : {
+        "tags_search" : ["giveaway", "contest", "sorteo", "to win"],
+        "tags_retweet" : ["retweet", "retweetea", "retwitea", "rt"],
+        "tags_message" : ["message", "dm"],
+        "tags_follow" : ["follow", "fl", "sigue", "seguir", "siguenos"],
+        "tags_like" : ["like", "fav", "favorite"]
+    },
+    "banned_config" : {
+        "keywords" : ["throat","bone","naked","selfie","photo","onlyfans","nude","+18","femdom","fendom","whatsapp","sex","xxx","daddy","mommy","sugar","vid","#imgxnct","pic","tits" ,"booty" ,"boob", "freenude","cum", "dick" ,"gay" ,"onlyfans.com","hot", "ass", "fuck", "suck", "cock", "lick","pussy" ],
+        "users" : [],
+        "name_keywords" : ["bot", "spotting", "spot", "spotter"]
+    },
+    "timer_config" : {
+        "sleep_timer" : 2,
+        "rt_timer" : 36,
+        "msg_timer" : 30,
+        "follow_timer" : 30
+    }
+}
+
+
